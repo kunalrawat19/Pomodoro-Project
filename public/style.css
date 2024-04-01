@@ -81,13 +81,14 @@ body{
 /* pomodoro_timer */
 
 .pomodoro_timer{
-    
+    display: flex;
     margin-top: 100px;
     margin:auto;
     margin-top: 5%;
     width:80%;
-    background-color: black;
-    padding:10px
+    background-color: transparent;
+    border: none;
+    padding:10px;
 }
 .pomodoro_timer_button{
     width: 150px;
@@ -98,16 +99,10 @@ body{
     color:white;
     font-family: "Roboto Slab", serif;
     
-
-
-
-    
-    
-    
 }
 
 
-.pomodoro{
+/* .pomodoro{
     
     float: left;
     
@@ -117,7 +112,7 @@ body{
 }
 .long_break{
     float:right;
-}
+} */
 .time_counter{
     margin: auto;
     color: white;
@@ -132,20 +127,59 @@ body{
     box-shadow: none;
     color:white;
     font-family: "Roboto Slab", serif;
+    font-size: 20px;
+} 
 
+.button_list{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    
+}
+#timer_button{
+    font-size: 16px;
+    border: none;
+    font-family:'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif
+    , 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    margin: 0px;
+    border-radius: 4px;
+    /* font-family: ArialRounded; */
+    font-size: 18px;
+    padding: 2px 12px;
+    height: 28px;
+    cursor: pointer;
+    /* background: none rgba(0, 0, 0, 0.15); */
+    box-shadow: none;
+    color: white;
+    opacity: 1;
+    font-weight: bold;
 }
 
 
-
-
-
- /* .background-image{
-    width: 100%;
-    height: 100%;
-    z-index: 0;
+ .background-image{
+     position:absolute;
+     width: 100%;
+     height: 118%;
+    z-index: -1;
     image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast
+    image-rendering: -webkit-optimize-contrast;
+    background-size: cover;
+    margin-top: -60px;
+    object-fit: cover;
     
+} 
+/* .background-image{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
-
-}  */
+/* .card pomodoro_timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
