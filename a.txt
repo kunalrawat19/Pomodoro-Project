@@ -1,0 +1,141 @@
+<div class="music_player"> 
+        
+        
+        <!-- left side of player  -->
+        <div class="previous_music">
+          
+          <button class="previous_music_button">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill change_music_button" viewBox="0 0 16 16">
+              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill change_music_button" viewBox="0 0 16 16">
+              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+            </svg>
+            
+          </button>
+          
+        </div>
+        
+        <!-- play button  -->
+        <div class="play_button_container">
+          <div  class="play_button_container2">
+            <button class="play_button">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" class="play_button_svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Right side of player  -->
+        <div class="next_music">
+          
+          <button class="next_music_button">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill change_music_button" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill change_music_button" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+          </button>
+        </div>
+        
+        
+      </div>
+
+
+      <div>
+
+
+
+      .music_player{
+    display: flex;
+    flex-direction: row;
+    width:40%;
+    margin:auto;
+    gap: 0.2rem;
+}
+
+.previous_music{
+    display: flex;
+    position:relative;
+    /* color:white; */
+    gap:0rem;
+    
+}
+.previous_music_button{
+    /* color: white; */
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.next_music{
+    display: flex;
+    position:relative;
+    /* color:white; */
+    gap: 0rem;
+}
+.next_music_button{
+    /* color: white; */
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    
+}
+.change_music_button{
+    transform: scale(3);
+    margin:0rem;
+    padding:0rem
+}
+
+
+/* .play_button_container{
+    height: 8.25rem;
+    width: 8.25rem;
+    position: relative;
+    margin: auto;
+    display: block;
+    border:0.25rem solid white;
+    border-radius: 50%;
+    
+    
+    /* z-index: 1; */
+}
+.play_button_container2{
+    /* background-color: #fff; */
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;   
+
+}
+.play_button{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
+.play_button_svg{
+    transform: scale(3);
+    color: rgb(0, 0, 0);
+    position: relative;
+    top:1.5rem;
+    left: 1.5rem;
+}
+
+
+
+ */
+
+
+
+
+ */
